@@ -1,0 +1,3 @@
+1.确保安装了“Windows Mobile Device Center”；
+2.win10下确保开启了“基于Windows Mobile 2003 的设备连接”windows服务（服务属性-登录-登陆身份-本地系统账户）；
+3.win10下确保开启了“功能访问管理器服务”windows服务；

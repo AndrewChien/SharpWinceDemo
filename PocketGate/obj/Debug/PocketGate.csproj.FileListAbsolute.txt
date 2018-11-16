@@ -1,0 +1,104 @@
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\AEnterTicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\ATicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\BTicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\Config.xml
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\CTicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\DTicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\NoRec_OVER_OutTTicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\NotEffectTicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\NoToDayTicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\OVERTicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\ZTicket.wav
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\PocketGate.exe
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\PocketGate.pdb
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\obj\Debug\PocketGate.MainForm.resources
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\obj\Debug\PocketGate.Properties.Resources.resources
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\obj\Debug\PocketGate.csproj.GenerateResource.Cache
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\obj\Debug\PocketGate.exe
+C:\Users\Zhenghj\Documents\Visual Studio 2008\Projects\PocketGate\PocketGate\obj\Debug\PocketGate.pdb
+D:\Work\PocketGate\PocketGate\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\PocketGate\PocketGate\obj\Debug\PocketGate.MainForm.resources
+D:\Work\PocketGate\PocketGate\obj\Debug\PocketGate.Properties.Resources.resources
+D:\Work\PocketGate\PocketGate\obj\Debug\PocketGate.csproj.GenerateResource.Cache
+D:\Work\PocketGate\PocketGate\obj\Debug\PocketGate.pdb
+D:\Work\PocketGate\PocketGate\bin\Debug\AEnterTicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\ATicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\BTicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\Config.xml
+D:\Work\PocketGate\PocketGate\bin\Debug\CTicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\DTicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\NoRec_OVER_OutTTicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\NotEffectTicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\NoToDayTicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\OVERTicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\ZTicket.wav
+D:\Work\PocketGate\PocketGate\bin\Debug\PocketGate.exe
+D:\Work\PocketGate\PocketGate\bin\Debug\PocketGate.pdb
+D:\Work\PocketGate\PocketGate\bin\Debug\Newtonsoft.Json.Compact.dll
+D:\Work\PocketGate\PocketGate\obj\Debug\PocketGate.exe
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Config.xml
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\PocketGate.exe
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\PocketGate.pdb
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Newtonsoft.Json.Compact.dll
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\ResolveAssemblyReference.cache
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.MainForm.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.Properties.Resources.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.CheckMain.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.Login.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.csproj.GenerateResource.Cache
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.exe
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.pdb
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.CheckManual.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.CheckScan.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\login.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\loginbtn.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\chkent.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\chkmain.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\chkmainbtn.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\chkmaincancel.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\chkscn.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\tckflr.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\tcksuc.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\tcksucent.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\32.ico
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\chkentcancel.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\chkentchk.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\tckback.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\tckflrent.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\Icon.ico
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\b0.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\b20.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\b40.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\b60.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\b80.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\b100.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\bc40.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\bc60.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\bc80.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\bc100.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\bc20.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\wifi0.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\wifi1.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\wifi2.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\wifi3.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\wifi4.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.CheckResult_aut_flr.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.CheckResult_aut_suc.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.CheckResult_ent_flr.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.CheckResult_ent_suc.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.Main_QD.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\ManulFailure.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\ScanFailure.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Pics\busy.png
+D:\ProjectsCom\YL_PocketGate\PocketGate\obj\Debug\PocketGate.QingDao.Splash.resources
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Sounds\可检票次数不够.wav
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Sounds\检票成功.wav
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Sounds\没有门票信息.wav
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Sounds\门票不可用.wav
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Sounds\门票已作废.wav
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Sounds\门票已使用.wav
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Sounds\门票已过期.wav
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Sounds\门票已退票.wav
+D:\ProjectsCom\YL_PocketGate\PocketGate\bin\Debug\Sounds\门票状态不可用.wav

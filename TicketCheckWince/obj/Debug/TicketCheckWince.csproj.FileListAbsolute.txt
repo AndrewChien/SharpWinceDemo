@@ -1,0 +1,7 @@
+D:\ProjectsCom\YL_PocketGate\TicketCheckWince\bin\Debug\TicketCheckWince.exe
+D:\ProjectsCom\YL_PocketGate\TicketCheckWince\bin\Debug\TicketCheckWince.pdb
+D:\ProjectsCom\YL_PocketGate\TicketCheckWince\obj\Debug\ResolveAssemblyReference.cache
+D:\ProjectsCom\YL_PocketGate\TicketCheckWince\obj\Debug\TicketCheckWince.Properties.Resources.resources
+D:\ProjectsCom\YL_PocketGate\TicketCheckWince\obj\Debug\TicketCheckWince.csproj.GenerateResource.Cache
+D:\ProjectsCom\YL_PocketGate\TicketCheckWince\obj\Debug\TicketCheckWince.exe
+D:\ProjectsCom\YL_PocketGate\TicketCheckWince\obj\Debug\TicketCheckWince.pdb

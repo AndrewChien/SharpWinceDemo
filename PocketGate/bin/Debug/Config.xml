@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <ScenicSpots>青岛票务PDA端</ScenicSpots>
+  <GateName>002Handheld</GateName>
+  <Version>1.0</Version>
+  <WebUrl>http://124.90.43.59:8110/verify</WebUrl>
+  <AuthInfoUrl>http://124.90.43.59:8110/auth</AuthInfoUrl>
+  <TokenUrl>http://124.90.43.59:8058</TokenUrl>
+  <ShotCutPath>/Windows/“开始”菜单/程序/PocketGate.exe.lnk</ShotCutPath>
+  <DesKey>52C69E3A57331081823331C4</DesKey>
+  <ReturnDelay>10</ReturnDelay>
+  <DeviceCode>Ab01</DeviceCode>
+  <UserName>111</UserName>
+</Configuration>

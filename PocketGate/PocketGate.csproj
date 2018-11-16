@@ -1,0 +1,375 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0583E139-91E4-4601-B0BC-940742E9ACA4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PocketGate</RootNamespace>
+    <AssemblyName>PocketGate</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>PocketGate</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>Pics\32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Windowsce.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json.Compact, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Newtonsoft.Json.Compact.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckResult.cs" />
+    <Compile Include="Battery.cs" />
+    <Compile Include="Common\DesHelper.cs" />
+    <Compile Include="Common\Hash.cs" />
+    <Compile Include="Common\LogHelper.cs" />
+    <Compile Include="Common\SysInfo.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="FullScreen.cs" />
+    <Compile Include="Helper\ApiHelper.cs" />
+    <Compile Include="Helper\VerifyTicketHelper.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ping.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\CheckMain.resx">
+      <DependentUpon>CheckMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\CheckManual.resx">
+      <DependentUpon>CheckManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\CheckResult_aut_flr.resx">
+      <DependentUpon>CheckResult_aut_flr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\CheckResult_aut_suc.resx">
+      <DependentUpon>CheckResult_aut_suc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\CheckResult_ent_flr.resx">
+      <DependentUpon>CheckResult_ent_flr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\CheckResult_ent_suc.resx">
+      <DependentUpon>CheckResult_ent_suc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\CheckScan.resx">
+      <DependentUpon>CheckScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\Main_QD.resx">
+      <DependentUpon>Main_QD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QingDao\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="QingDao\CheckMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\CheckMain.Designer.cs">
+      <DependentUpon>CheckMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QingDao\CheckManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\CheckManual.Designer.cs">
+      <DependentUpon>CheckManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QingDao\CheckResult_aut_flr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\CheckResult_aut_flr.Designer.cs">
+      <DependentUpon>CheckResult_aut_flr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QingDao\CheckResult_aut_suc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\CheckResult_aut_suc.Designer.cs">
+      <DependentUpon>CheckResult_aut_suc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QingDao\CheckResult_ent_flr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\CheckResult_ent_flr.Designer.cs">
+      <DependentUpon>CheckResult_ent_flr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QingDao\CheckResult_ent_suc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\CheckResult_ent_suc.Designer.cs">
+      <DependentUpon>CheckResult_ent_suc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QingDao\CheckScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\CheckScan.Designer.cs">
+      <DependentUpon>CheckScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QingDao\Main_QD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\Main_QD.Designer.cs">
+      <DependentUpon>Main_QD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QingDao\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Result\ApiResult.cs" />
+    <Compile Include="Helper\SoundHelper.cs" />
+    <Compile Include="QingDao\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QingDao\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyTicket\VerifyTicket.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pics\32.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\busy.gif">
+    </Content>
+    <Content Include="Pics\busy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\chkent.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\chkentcancel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\chkentchk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\chkmain.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\chkmainbtn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\chkmaincancel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\chkscn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\login.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\loginbtn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\ManulFailure.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\ScanFailure.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\tckback.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\tckflr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\tckflrent.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\tcksuc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pics\tcksucent.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\AEnterTicket.wav">
+    </Content>
+    <Content Include="Sounds\ATicket.wav">
+    </Content>
+    <None Include="Pics\b0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\b20.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\b40.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\b60.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\b80.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\b100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\bc40.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\bc60.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\bc80.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\bc100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\bc20.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Sounds\BTicket.wav">
+    </Content>
+    <Content Include="Config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\CTicket.wav">
+    </Content>
+    <Content Include="Sounds\DTicket.wav">
+    </Content>
+    <Content Include="Pics\Icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\NoRec_OVER_OutTTicket.wav">
+    </Content>
+    <Content Include="Sounds\NotEffectTicket.wav">
+    </Content>
+    <Content Include="Sounds\NoToDayTicket.wav">
+    </Content>
+    <Content Include="Sounds\OVERTicket.wav">
+    </Content>
+    <None Include="Pics\wifi0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\wifi1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\wifi2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\wifi3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pics\wifi4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Sounds\ZTicket.wav">
+    </Content>
+    <Content Include="Sounds\可检票次数不够.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\声音备注.txt" />
+    <Content Include="Sounds\检票成功.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\没有门票信息.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\门票不可用.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\门票已作废.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\门票已使用.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\门票已过期.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\门票已退票.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\门票状态不可用.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Pics\已使用.png">
+    </None>
+    <None Include="Pics\已过期.png">
+    </None>
+    <None Include="Pics\无效票.png">
+    </None>
+    <None Include="Pics\未到期.png">
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

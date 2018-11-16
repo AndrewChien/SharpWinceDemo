@@ -1,0 +1,20 @@
+AEnterTicket.wav——已经使用票
+ATicket.wav——全价票
+BTicket.wav——半价票
+CTicket.wav——团体票
+DTicket.wav——团体票
+NoRec_OVER_OutTTicket.wav——无效票
+NotEffectTicket.wav——无效订单
+NoToDayTicket.wav——未到期票
+OVERTicket.wav——过期票
+ZTicket.wav——网络票
+
+检票成功Successful ticket checking
+可检票次数不够Insufficient number of checks
+没有门票信息No ticket information
+门票不可用Tickets are not available
+门票已过期Ticket expired
+门票已使用Tickets are used
+门票已退票Tickets have been refunded
+门票已作废Tickets have been revoked
+门票状态不可用Ticket status is not available
